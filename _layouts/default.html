@@ -1,30 +1,18 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html>
-	<head>
-        <title>{{ page.title }}</title>
-        <!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-			<h2>Gialbo's blog</h2>
-    		<ul>
-				<li><a href="/">Blog</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/contact">Contact me</a></li>
-    		</ul>
-		</nav>
-		<hr class="menu-div">
-        <div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-        <footer>
-    		<ul>
-        		<li><a href="mailto:gilbertomanunza@gmail.com">email</a></li>
-        		<li><a href="https://github.com/Gialbo">github.com/Gialbo</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+{% include header.html %}
+
+<body data-theme="{{ site.mode }}">
+  {% include navbar.html %}
+  <div class="wrapper">
+    <!-- {% include blog.html %} -->
+    <main aria-label="Content">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
+</body>
 </html>

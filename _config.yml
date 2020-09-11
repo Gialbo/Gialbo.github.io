@@ -1,3 +1,89 @@
-name: Gialbo site
+# Site settings
+title: Gialbo's Blog # site title
+description: >- # site description
+  Data Science and Engineering student writing about ML, DL and other cool stuff.<a href="https://github.com/Gialbo" target="_blank" rel="noopener">@github</a>.
+lang: en-US # default lang
+timezone: CEST/Italy # set your timezone
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/Gialbo/Gialbo.github.io# site repo [optional]
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: Gilberto Manunza # author name
+  username: Gialbo # general username
+  github: Gialbo # github username
+  twitter: # twitter username
+  facebook:  # facebook username
+  email: gilbertomanunza@gmail.com # email adress
+  avatar: /assets/img/photo.jpg # change with your own avatar
+ # change with your own avatar
+
+# URL settings
+url: "https://gialbo.github.io" #
+baseurl:
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
