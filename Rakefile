@@ -1,7 +1,7 @@
 desc "Commit _site/"
 task :commit do
   puts "\n## Fixing sitemap"
-  status = system("sed 's/http:\/\/localhost:4000/https:\/\/Gialbo\.github\.io/g' _site/sitemap.xml > _site/sitemap.xml")
+  status = system("sed \'s/http:\/\/localhost:4000/https:\/\/Gialbo\.github\.io/g\' _site/sitemap.xml > _site/sitemap.xml")
   puts status ? "Success" : "Failed"
   puts "\n## Staging modified files"
   status = system("git add -A")
