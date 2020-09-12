@@ -3294,7 +3294,7 @@ One of the main advantages of SVM besides it's flexibility is that the algorithm
 In the linear case we want to find an hyperplane which separates the data and has the highest possible margin. we can define this hyperplane as  $$f(x)=\langle \mathbf{w},\mathbf{x}\rangle+b$$, where $$\mathbf{w}$$ is a vector orthogonal to the hyperplane and $$b$$ an intercept term.
 
 <figure>
-    <img src="media/svm.png" style="width: 400px;">
+    <img src="media/svm.PNG" style="width: 400px;">
     <figcaption><center><i>SVM, hyperplanes and margin. <a href="https://towardsdatascience.com/support-vector-machine-vs-logistic-regression-94cc2975433f">Source</a></i></center></figcaption>
 </figure>
 
@@ -3994,7 +3994,7 @@ draw_rocs(rocs, roc_aucs, roc_titles)
 Decision trees are algorithms that use a tree-like structure to make predictions. In particolar each internal node of the tree performs a test on a predictor (for example attribute $$foreign=yes$$) while each branch represents the outcome of the test. Each leaf node represent the outcome of the classification (label). Then the various paths from the root to the leaves are decision rules on the data.
 
 <figure>
-<img src="media/tree_credit.png" style="width: 400px;">
+<img src="media/tree_credit.PNG" style="width: 400px;">
     <figcaption><center><i>Example of decision tree for a generic credit risk analysis. <a href="https://medium.com/@ryotennis0503/what-is-decision-tree-345d8d27c350">Source</a></i></center></figcaption>
 </figure>
 
