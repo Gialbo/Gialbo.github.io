@@ -3118,7 +3118,7 @@ samples and the test input are computed. Finally a majority vote is taken in the
 sample to assign its label, so we can see $$k$$-NN as a searching problem.
 
 <figure>
-    <table><tr><td bgcolor="white"><center><img src="media/knn-tc.png" style="width: 400px;"/></center></td><td bgcolor="white"><center><img src="media/knn-class.png" style="width: 400px;"/></center></td></tr></table>
+    <table><tr><td bgcolor="white"><center><img src="media/knn-tc.PNG" style="width: 400px;"/></center></td><td bgcolor="white"><center><img src="media/knn-class.PNG" style="width: 400px;"/></center></td></tr></table>
     <figcaption><center><i>\(k\)-NN in action with \(k=3\) at test time</i></center></figcaption>
 </figure>
 
