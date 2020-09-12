@@ -1,3 +1,15 @@
+// Table scroll
+.scrollit {
+  overflow-x: auto;
+  overflow-y: auto;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.whitebackfig {
+  background-color: #ffffff;
+}
+
 // Fonts preferences
 $sans-family: Roboto, sans-serif;
 $mono-family: Consolas, monospace;
