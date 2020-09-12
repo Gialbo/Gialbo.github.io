@@ -4,7 +4,7 @@
 	<title>Gialbo site</title>
 	<link href="http://gialbo.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://gialbo.github.io/blog"/>
-	<updated>2020-09-12T16:46:16+00:00</updated>
+	<updated>2020-09-12T22:48:07+00:00</updated>
 	<id>http://gialbo.github.io/blog</id>
 	<author>
 		<name>Gilberto Manunza</name>
@@ -3079,7 +3079,7 @@ samples and the test input are computed. Finally a majority vote is taken in the
 sample to assign its label, so we can see \(k\)-NN as a searching problem.&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;table&gt;&lt;tr&gt;&lt;td bgcolor=&quot;white&quot;&gt;&lt;center&gt;&lt;img src=&quot;media/knn-tc.png&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/center&gt;&lt;/td&gt;&lt;td bgcolor=&quot;white&quot;&gt;&lt;center&gt;&lt;img src=&quot;media/knn-class.png&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+    &lt;table&gt;&lt;tr&gt;&lt;td bgcolor=&quot;white&quot;&gt;&lt;center&gt;&lt;img src=&quot;media/knn-tc.PNG&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/center&gt;&lt;/td&gt;&lt;td bgcolor=&quot;white&quot;&gt;&lt;center&gt;&lt;img src=&quot;media/knn-class.PNG&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/center&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
     &lt;figcaption&gt;&lt;center&gt;&lt;i&gt;\(k\)-NN in action with \(k=3\) at test time&lt;/i&gt;&lt;/center&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -3242,7 +3242,7 @@ One of the main advantages of SVM besides it’s flexibility is that the algorit
 In the linear case we want to find an hyperplane which separates the data and has the highest possible margin. we can define this hyperplane as  \(f(x)=\langle \mathbf{w},\mathbf{x}\rangle+b\), where \(\mathbf{w}\) is a vector orthogonal to the hyperplane and \(b\) an intercept term.&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img src=&quot;media/svm.png&quot; style=&quot;width: 400px;&quot; /&gt;
+    &lt;img src=&quot;media/svm.PNG&quot; style=&quot;width: 400px;&quot; /&gt;
     &lt;figcaption&gt;&lt;center&gt;&lt;i&gt;SVM, hyperplanes and margin. &lt;a href=&quot;https://towardsdatascience.com/support-vector-machine-vs-logistic-regression-94cc2975433f&quot;&gt;Source&lt;/a&gt;&lt;/i&gt;&lt;/center&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -3873,7 +3873,7 @@ minimize \(|\mathbf{\beta}|\).&lt;/p&gt;
 &lt;p&gt;Decision trees are algorithms that use a tree-like structure to make predictions. In particolar each internal node of the tree performs a test on a predictor (for example attribute \(foreign=yes\)) while each branch represents the outcome of the test. Each leaf node represent the outcome of the classification (label). Then the various paths from the root to the leaves are decision rules on the data.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;media/tree_credit.png&quot; style=&quot;width: 400px;&quot; /&gt;
+&lt;img src=&quot;media/tree_credit.PNG&quot; style=&quot;width: 400px;&quot; /&gt;
     &lt;figcaption&gt;&lt;center&gt;&lt;i&gt;Example of decision tree for a generic credit risk analysis. &lt;a href=&quot;https://medium.com/@ryotennis0503/what-is-decision-tree-345d8d27c350&quot;&gt;Source&lt;/a&gt;&lt;/i&gt;&lt;/center&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
