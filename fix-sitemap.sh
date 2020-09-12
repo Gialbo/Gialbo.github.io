@@ -1,0 +1,1 @@
+sed 's/http:\/\/localhost:4000/https:\/\/Gialbo\.github\.io/g' _site/sitemap.xml | tee '_site/sitemap.xml'
