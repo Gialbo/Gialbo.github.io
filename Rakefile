@@ -1,7 +1,7 @@
 desc "Commit _site/"
 task :commit do
   puts "\n## Fixing sitemap"
-  status = system("fix-sitemap.sh")
+  status = system("sh fix-sitemap.sh")
   puts status ? "Success" : "Failed"
   puts "\n## Staging modified files"
   status = system("git add -A")
