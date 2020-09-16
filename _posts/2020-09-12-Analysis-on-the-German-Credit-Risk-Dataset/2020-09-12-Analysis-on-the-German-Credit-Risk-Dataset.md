@@ -4,6 +4,7 @@ title: "Analysis on the German Credit Risk Dataset"
 tags: [machine learning, dataset, analysis]
 date: 2020-09-12
 description: Analysis of the German Credit Dataset using different machine learning tecniques.
+keywords: german credit risk, data exploration, machine learning, svm, k-nn, rbf, kernel, decision trees, random forests, analysis, dataset
 ---
 
 When a bank (or another credit institute) receives an application for a loan it must perform a risk assessment in order to evaluate whether or not the applicant is eligible for credit. In the case the specific individual has a good credit risk it is more likely that he or she will repay the debt. Viceversa if an individual has a bad credit risk then there is an highly likelihood that the bank will lose money if it accepts to give a loan to the applicant. In this analysis I will focus on trying to predict the risk score of individuals using socio-economical factors. I will use the <a href="https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29">German Credit Dataset</a> (Statlog), which contains 1000 samples: 20 features and 1 response variable. The features describe the demographic and socio-economical situation of every sample, while the response variable indicates the risk score for the individual using two values: good risk score (numerical value $$1$$ in the dataset) and bad risk score (numerical value $$2$$ in the dataset). This problem is then a supervised binary classification problem.

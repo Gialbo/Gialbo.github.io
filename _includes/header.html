@@ -54,6 +54,16 @@
         | escape
     }}"
   />
+  <meta
+  name="keywords"
+  content="{{
+    page.keywords
+      | strip_html
+      | normalize_whitespace
+      | truncate: 200
+      | escape
+  }}"
+/>
   <meta name="referrer" content="no-referrer-when-downgrade" />
   <meta property="fb:app_id" content="{{ site.fb_appid }}" />
   <meta
