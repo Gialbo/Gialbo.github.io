@@ -1,7 +1,7 @@
 # Site settings
 title: Gialbo's Blog # site title
 description: >- # site description
-  Data Science and Engineering student writing about ML, DL and other cool stuff.<a href="https://github.com/Gialbo" target="_blank" rel="noopener">@github</a>.
+  MSc in Data Science and Engineering writing about ML, DL and other cool stuff.<a href="https://github.com/Gialbo" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
 timezone: CEST/Italy # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
