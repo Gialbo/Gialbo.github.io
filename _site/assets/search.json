@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "Implementing k-Nearest Neighbors from scratch - The naive way",
+      "tags"     : "machine learning, algorithms",
+      "url"      : "/Implementing-k-Nearest-Neighbors-from-scratch-The-naive-way/",
+      "date"     : "2022-01-27 00:00:00 +0000"
+    } ,
+  
+    {
       "title"    : "Analysis on the German Credit Risk Dataset",
       "tags"     : "machine learning, dataset, analysis",
       "url"      : "/Analysis-on-the-German-Credit-Risk-Dataset/",
